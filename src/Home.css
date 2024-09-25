@@ -1,0 +1,43 @@
+* {
+  background-color: azure;
+}
+
+div{
+  text-align: center;
+}
+
+p, h1{
+  display: none;
+}
+
+button{
+  display: none;
+  margin: auto;
+  height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+
+.dinheiro {
+  width: 60%;
+  display: none;
+}
+
+.gif {
+  width: 80%;
+}
+
+@media (min-width: 768px){
+  .dinheiro {
+    width: 30%;
+  }
+  .gif {
+    width: 40%;
+  }
+}
+
+
+.ativo{
+  display: block;
+  margin: 1rem auto;
+}
