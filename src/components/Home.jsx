@@ -27,7 +27,7 @@ function Home(){
   }
 
   function Dinheiro() {
-    if(contagem < 10){
+    if(contagem < 1){
       return (
         <div>
         Primeira Retirada
@@ -37,44 +37,15 @@ function Home(){
 
       )
     }
-    else if(contagem < 20){
-      mensagem = 'Só falta 90 REAIS'
-      return mensagem
-    }
-    else if(contagem < 30){
-      mensagem = 'Só falta 80 REAIS'
-      return mensagem
-    }
-    else if(contagem < 40){
-      mensagem = 'Só falta 70 REAIS'
-      return mensagem
-    }
-    else if(contagem < 50){
-      mensagem = 'Só falta 60 REAIS'
-      return mensagem
-    }
-    else if(contagem < 60){
-      mensagem = 'Só falta 50 REAIS'
-      return mensagem
-    }
-    else if(contagem < 70){
-      mensagem = 'Só falta 40 REAIS'
-      return mensagem
-    }
-    else if(contagem < 80){
-      mensagem = 'Só falta 30 REAIS'
-      return mensagem
-    }
-    else if(contagem < 90){
-      mensagem = 'Só falta 20 REAIS'
-      return mensagem
-    }
     else if(contagem < 100){
-      mensagem = 'Só falta 10 REAIS'
-      return mensagem
+      return (
+        <div>
+          Só falta {100 - contagem} REAIS
+        </div>
+      )
     }
     else{
-      mensagem = "Vai trabalhar"
+      mensagem = "Vai t rabalhar"
       return(
         <div>
           {removeClass('ativo')}
