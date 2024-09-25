@@ -45,7 +45,7 @@ function Home(){
       )
     }
     else{
-      mensagem = "Vai t rabalhar"
+      mensagem = "Vai trabalhar"
       return(
         <div>
           {removeClass('ativo')}
